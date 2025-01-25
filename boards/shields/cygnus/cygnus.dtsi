@@ -6,6 +6,26 @@
         zmk,matrix-transform = &default_transform;
     };
 
+    aliases {
+        led-red = &led0;
+        led-green = &led1;
+        led-blue = &led2;
+    };
+
+    leds {
+        compatible = "gpio-leds";
+        status = "okay";
+        led0: led_0 {
+            gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;  // red LED, connected to P0.16
+        };
+        led1: led_1 {
+            gpios = <&gpio0 8 GPIO_ACTIVE_LOW>;  // green LED, connected to P0.08
+        };
+        led2: led_2 {
+            gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;  // blue LED, connected to P0.06
+        };
+    };
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <16>;
