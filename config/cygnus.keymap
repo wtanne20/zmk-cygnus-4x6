@@ -93,11 +93,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans                &trans                &trans                &trans                &trans           &trans     &trans     &trans     &trans    &trans    &trans
-&trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LC(LA(NUMBER_3))  &kp LA(LC(NUMBER_4))  &trans           &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans  &kp LA(LC(N5))        &kp LA(LC(NUMBER_6))  &kp LC(LA(N7))        &kp LC(LA(N8))        &trans           &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &trans                &trans                &trans                &trans                &trans           &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                                    &trans                &trans                &kp BACKSPACE    &trans     &trans     &trans
+&trans  &trans                &trans                &trans                &trans                &trans             &trans     &trans     &trans     &trans    &trans    &trans
+&trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LC(LA(NUMBER_3))  &kp LA(LC(NUMBER_4))  &trans             &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&trans  &kp LA(LC(N5))        &kp LA(LC(NUMBER_6))  &kp LC(LA(N7))        &kp LC(LA(N8))        &trans             &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &trans                &kp LEFT_ARROW        &kp UP_ARROW          &kp DOWN_ARROW        &kp RIGHT_ARROW    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                                    &trans                &trans                &kp BACKSPACE      &trans     &trans     &trans
             >;
         };
 
