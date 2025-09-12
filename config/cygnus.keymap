@@ -108,11 +108,11 @@
 
         games {
             bindings = <
-&kp ESC  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5       &none  &none  &none  &none  &none  &none
-&kp N6   &none         &kp Q   &kp W   &kp E   &kp R        &none  &none  &none  &none  &none  &none
-&none    &kp LSHFT     &kp A   &kp S   &kp D   &kp F        &none  &none  &none  &none  &none  &none
-&none    &none         &kp V   &kp X   &kp G   &kp B        &none  &none  &none  &none  &none  &none
-                               &kp Z   &kp C   &kp SPACE    &none  &none  &to 0
+&kp ESC  &kp NUMBER_1  &kp N2  &kp N3     &kp N4  &kp N5       &trans  &trans  &trans  &trans  &trans  &trans
+&kp T    &kp TAB       &kp Q   &kp W      &kp E   &kp R        &trans  &trans  &trans  &trans  &trans  &trans
+&kp G    &kp LSHFT     &kp A   &kp S      &kp D   &kp F        &trans  &trans  &trans  &trans  &trans  &trans
+&kp B    &kp LCTRL     &kp Z   &kp X      &kp C   &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                               &kp LCTRL  &kp C   &kp SPACE    &trans  &trans  &to 0
             >;
         };
     };
